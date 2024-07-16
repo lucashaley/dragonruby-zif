@@ -67,6 +67,8 @@ module Zif
   # {Zif::UI::NinePanel}, etc).
   #
   # @see ExampleApp::CompoundSpriteTest
+  #
+  # Currently the +angle+ of a CompoundSprite is not recognized. The +angle+ of each sprite in +sprites+ is recognized.
   class CompoundSprite < Sprite
     # @return [Array<Zif::Sprite>] The list of sprites this CompoundSprite is rendering.
     attr_accessor :sprites
